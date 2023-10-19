@@ -1,0 +1,82 @@
+body {
+    background-image: url(file:///Users/macdaddy2/Documents/ProgrammingProjects/Project2/IMAGES/CoffeeFarm.jpeg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+h1, h2 {
+    font-family: Impact, serif;
+}
+.established {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0; /*Removed default top margin sometimes added as a default by browsers*/
+    margin-bottom: 15px; /*Removed vertical space between h1 and Est. 2023*/
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.menu {
+    width: 80%;
+    max-width: 500px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+hr { /*Horizontal line below established class */
+    height: 3px;
+    background-color: black;
+    border-color: black; /*Removes the gray outline of the line*/
+    height: 2px; /*Changes the thickness of the line which by default is 1 px for all edges*/
+}
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.bottom-line { /*Creates space for the bottom hr line*/
+    margin-top: 25px;;
+}
+
+footer {
+    font-size: 14px;
+}
+
+.address { /*Made the space below the address at the bottom of the menu smaller.*/
+    margin-bottom: 5px;
+}
+
+a { /*Makes the link black regardless of if the link is selected or not*/
+    color: black;
+}
+a:visited {
+    color: grey
+}
+a:hover {
+    color: darkblue;
+}
+a:active {
+    color: silver;
+}
